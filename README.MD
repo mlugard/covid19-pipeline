@@ -123,4 +123,3 @@ Dashboard interativo (Power BI ou Metabase)
 Marcelo Cabral
 📍 Engenharia de Dados | Foco em Projetos Reais e Cloud
 
-# 🔗 LinkedIn
