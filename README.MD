@@ -51,18 +51,31 @@ Controle de versão:	Git + GitHub
 🧩 Estrutura do Projeto
 covid19-pipeline/
 │
+
 ├── data/                  # Dados brutos e transformados
+
 ├── dags/                  # (futuramente) DAGs do Airflow
+
 ├── notebooks/             # Jupyter notebooks de exploração
+
 ├── src/
+
 │   ├── extract.py         # Coleta e ingestão dos dados
+
 │   ├── transform.py       # Limpeza e transformação
+
 │   ├── load.py            # Armazenamento e carga final
+
 │   └── utils.py           # Funções auxiliares
+
 ├── venv/                  # Configuração do ambiente virtual
+
 ├── requirements.txt       # Dependências do projeto
+
 ├── Dockerfile             # (futuramente) Configuração do container
+
 ├── README.md              # Documentação
+
 └── dashboard.pbix         # Painel (Power BI ou Metabase export)
 
 🚀 Como Executar Localmente
@@ -109,4 +122,5 @@ Dashboard interativo (Power BI ou Metabase)
 
 Marcelo Cabral
 📍 Engenharia de Dados | Foco em Projetos Reais e Cloud
+
 # 🔗 LinkedIn
