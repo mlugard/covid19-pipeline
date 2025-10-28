@@ -4,25 +4,25 @@
 Este projeto implementa um pipeline de dados completo para coletar, processar e analisar informações sobre casos de COVID-19.
 O objetivo é demonstrar habilidades práticas de engenharia de dados, incluindo:
 
-    Coleta automatizada de dados de fontes públicas (APIs e CSVs)
+Coleta automatizada de dados de fontes públicas (APIs e CSVs)
 
-    Limpeza, transformação e enriquecimento dos dados
+Limpeza, transformação e enriquecimento dos dados
 
-    Armazenamento otimizado em banco de dados relacional e/ou data lake
+Armazenamento otimizado em banco de dados relacional e/ou data lake
 
-    Criação de relatórios e dashboards para análise exploratória
+Criação de relatórios e dashboards para análise exploratória
 
 🧠 Objetivo do Projeto
 
 O projeto foi desenvolvido para:
 
-    Praticar conceitos fundamentais de ETL/ELT
+Praticar conceitos fundamentais de ETL/ELT
 
-    Aplicar boas práticas de modelagem e versionamento de dados
+Aplicar boas práticas de modelagem e versionamento de dados
 
-    Aprender a orquestrar tarefas de dados de forma automatizada
+Aprender a orquestrar tarefas de dados de forma automatizada
 
-    Servir como base para futuros pipelines em escala
+Servir como base para futuros pipelines em escala
 
 ⚙️ Arquitetura do Pipeline
     A[📥 Coleta de Dados API / CSV] --> B[🧹 Limpeza e Transformação (Pandas / PySpark)]
@@ -31,13 +31,13 @@ O projeto foi desenvolvido para:
 
 
 Etapas:
-    Ingestão: dados coletados diariamente da API COVID-19 Dataset (https://www.kaggle.com/datasets/imdevskp/corona-virus-report)
+Ingestão: dados coletados diariamente da API COVID-19 Dataset (https://www.kaggle.com/datasets/imdevskp/corona-virus-report)
 
-    Transformação: padronização de nomes, datas, países e cálculo de métricas derivadas (médias móveis, taxa de mortalidade, etc).
+Transformação: padronização de nomes, datas, países e cálculo de métricas derivadas (médias móveis, taxa de mortalidade, etc).
 
-    Carga: dados salvos em banco relacional (ex: PostgreSQL) e exportados para formato parquet no Data Lake.
+Carga: dados salvos em banco relacional (ex: PostgreSQL) e exportados para formato parquet no Data Lake.
 
-    Visualização: criação de painéis interativos para acompanhamento da evolução global da pandemia.
+Visualização: criação de painéis interativos para acompanhamento da evolução global da pandemia.
 
 🧰 Tecnologias Utilizadas
 Linguagem:	Python
@@ -122,4 +122,5 @@ Dashboard interativo (Power BI ou Metabase)
 
 Marcelo Cabral
 📍 Engenharia de Dados | Foco em Projetos Reais e Cloud
+
 
