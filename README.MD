@@ -54,6 +54,14 @@ covid19-pipeline/
 
 ├── data/                  # Dados brutos e transformados
 
+│   ├── raw/         
+
+│   ├── bronze/     
+
+│   ├── silver/ 
+
+│   ├── gold/               
+
 ├── dags/                  # (futuramente) DAGs do Airflow
 
 ├── notebooks/             # Jupyter notebooks de exploração
