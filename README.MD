@@ -84,7 +84,7 @@ covid19-pipeline/
 
 ├── README.md              # Documentação
 
-└── dashboard.pbix         # Painel (Power BI ou Metabase export)
+└── dashboard.pbix         # Painel (Power BI)
 
 🚀 Como Executar Localmente
 # 1. Clone o repositório
@@ -130,5 +130,6 @@ Dashboard interativo (Power BI ou Metabase)
 
 Marcelo Cabral
 📍 Engenharia de Dados | Foco em Projetos Reais e Cloud
+
 
 
